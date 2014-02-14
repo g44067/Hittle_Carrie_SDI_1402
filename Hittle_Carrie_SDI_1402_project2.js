@@ -5,9 +5,8 @@
 // a "TripnDizzy Ink Production"
 alert("WELCOME....to....Keeping Track");
 var myConfirmation = false;
-var membership = true + email;
-var email = "";
-var membershipInfo = membership;
+var input = email = "";
+
 var catArray = [ "movies","music","photos"];
 
 myConfirmation = confirm("Are you a member of Keeping Track?");
@@ -20,11 +19,11 @@ if(myConfirmation === false) {
 prompt("Please choose a catogorie");
 
 
-(input === catArray[1]){
-	console.log("I see you have choosen to check out our movies program, great choice.");
-	(input === catArray[2]){
-		console.log("I see you have choosen to check out our music program, great choice.");
-		}else{
+while(input === catArray[1]){
+	console.log("I see you have choosen to check out our movies program, great choice.")+catArray;
+	if( input === catArray[2]){
+		console.log("I see you have choosen to check out our music program, great choice.")+catArray;
+		}else if(input === catArray[3]){
 			console.log("I see you have choosen to check out our photo program, great choice.");
-			}
-		}
+		};
+};
